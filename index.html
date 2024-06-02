@@ -1,0 +1,297 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Move</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="icon" href="img/Logo.png">
+</head>
+  <body>
+    
+    <!--Menú-->
+
+    
+    <nav class="navbar navbar-expand-lg bg-light">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">MOVE</a>
+            <a class="nav-link text-muted" href="#">Tus Zapatillas, Tu Movimiento</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll" aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarScroll">
+            <ul class="navbar-nav me-auto my-2 my-lg-0 navbar-nav-scroll" style="--bs-scroll-height: 100px;">
+              <li class="nav-item ms-5">
+                <a class="nav-link active" aria-current="page" href="#">Inicio</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Más opciones</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="#">Contactanos</a></li>
+                  <li><hr class="dropdown-divider"></li>
+                  <li><a class="dropdown-item" href="#">Formas de pago</a></li>
+                  <li><hr class="dropdown-divider"></li>
+                  <li><a class="dropdown-item" href="#">Acerca de nosotros</a></li> 
+                </ul>
+              </li>
+            </ul>
+            <form class="d-flex" role="Buscar">
+              <input class="form-control me-2" type="Buscar" placeholder="Buscar" aria-label="Buscar">
+              <button class="btn btn-outline-dark" type="submit">Buscar</button>
+            </form>
+          </div>
+        </div>
+      </nav>
+
+
+      <!--Imagen tipo portada-->
+
+      <div id="carouselExampleControlsNoTouching" class="carousel slide" data-bs-touch="false">
+        <div class="carousel-inner">
+          <div class="carousel-item active mb-4">
+            <img src="img/nike3b.jpg" class="d-block w-100" alt="...">
+          </div>
+      </div>
+
+      <!--Zapatillas-->
+    
+ <main>
+    <nav class="navbar bg-light">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">
+                <img src="img/Logo.png" alt="Logo" width="40" height="40" class="d-inline-block align-text-top">
+                <div class="d-inline-block align-text-top">
+                    <h3 class="text-start fw-bold">Best Sellers: ¡Lo mejor de lo mejor!</h3>
+                </div>
+            </a>
+        </div>
+    </nav>
+
+     
+    
+     
+        <div class="row row-cols-1 row-cols-md-5 g-4 justify-content-center mt-5">
+          <div class="col mb-3">
+            <div class="card">
+              <img src="img/zapa1b.jpg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Nike Golden Thunder</h5>
+                <p class="card-text"></p>
+                <select class="form-select mb-3" id="size-select">
+                    <option selected>Seleccionar talle</option>
+                    <option value="">36</option>
+                    <option value="">37</option>
+                    <option value="">38</option>
+                    <option value="">39</option>
+                    <option value="">40</option>
+                </select> 
+              <div class="text-center">
+                      <p class="h5 text-start fw-bold">$280.000</p>
+                      <button type="button" class="btn btn-dark" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                        Comprar
+                      </button>
+                      
+                      <!-- Modal -->
+                      <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                        <div class="modal-dialog">
+                          <div class="modal-content">
+                            <div class="modal-header">
+                              <h1 class="modal-title fs-5" id="exampleModalLabel">Confirmar Compra</h1>
+                              <button type="button" class="btn-close " data-bs-dismiss="modal" aria-label="Close"></button>
+                            </div>
+                            <div class="modal-body">
+                              <p>¿Está seguro de que desea comprar este producto?
+                              ¡No pierda esta oportunidad de adquirir un producto de alta calidad!</p>
+                            </div>
+                            <div class="modal-footer">
+                              <button type="button" class="btn btn-dark" data-bs-dismiss="modal">Cancelar</button>
+                              <button type="button" class="btn btn-dark">Confirmar Compra</button>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+
+
+                  </div>
+              </div>
+            </div>
+          </div>
+      
+          <div class="col mb-3">
+            <div class="card">
+              <img src="img/zapa4b.jpg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Nike Jordan 1 Mid Light</h5>
+                <p class="card-text"></p>
+                <select class="form-select mb-3" id="size-select">
+                    <option selected>Seleccionar talle</option>
+                    <option value="">36</option>
+                    <option value="">37</option>
+                    <option value="">38</option>
+                    <option value="">39</option>
+                    <option value="">40</option>
+                </select> 
+              <div class="text-center">
+                      <p class="h5 text-start fw-bold">$400.000</p>
+                      <button class="btn btn-dark" type="submit">Comprar</button>
+                  </div>
+              </div>
+            </div>
+          </div>
+    
+          <div class="col mb-3">
+            <div class="card">
+              <img src="img/zapa3b.jpg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Nike Brown Charm</h5>
+                <p class="card-text"></p>
+                <select class="form-select mb-3" id="size-select">
+                    <option selected>Seleccionar talle</option>
+                    <option value="">36</option>
+                    <option value="">37</option>
+                    <option value="">38</option>
+                    <option value="">39</option>
+                    <option value="">40</option>
+                </select> 
+              <div class="text-center">
+                      <p class="h5 text-start fw-bold">$250.000</p>
+                      <button class="btn btn-dark" type="submit">Comprar</button>
+                  </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="row row-cols-1 row-cols-md-5 g-4 justify-content-center mt-3">
+          <div class="col mb-5">
+            <div class="card">
+              <img src="img/zapas7b.jpg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Nike Crystal White</h5>
+                <p class="card-text"></p>
+                <select class="form-select mb-3" id="size-select">
+                    <option selected>Seleccionar talle</option>
+                    <option value="">36</option>
+                    <option value="">37</option>
+                    <option value="">38</option>
+                    <option value="">39</option>
+                    <option value="">40</option>
+                </select> 
+              <div class="text-center">
+                      <p class="h5 text-start fw-bold">$340.000</p>
+                      <button class="btn btn-dark" type="submit">Comprar</button>
+                  </div>
+              </div>
+            </div>
+          </div>
+      
+          <div class="col mb-5">
+            <div class="card">
+              <img src="img/zapas8b.jpg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Nike Midnight Runner</h5>
+                <p class="card-text"></p>
+                <select class="form-select mb-3" id="size-select">
+                    <option selected>Seleccionar talle</option>
+                    <option value="">36</option>
+                    <option value="">37</option>
+                    <option value="">38</option>
+                    <option value="">39</option>
+                    <option value="">40</option>
+                </select> 
+              <div class="text-center">
+                      <p class="h5 text-start fw-bold">$330.000</p>
+                      <button class="btn btn-dark" type="submit">Comprar</button>
+                  </div>
+              </div>
+            </div>
+          </div>
+    
+          <div class="col mb-5">
+            <div class="card">
+              <img src="img/zapas9b.jpg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Nike Green Glow</h5>
+                <p class="card-text"></p>
+                <select class="form-select mb-3" id="size-select">
+                    <option selected>Seleccionar talle</option>
+                    <option value="">36</option>
+                    <option value="">37</option>
+                    <option value="">38</option>
+                    <option value="">39</option>
+                    <option value="">40</option>
+                </select> 
+              <div class="text-center">
+                      <p class="h5 text-start fw-bold">$250.000</p>
+                      <button type="button" class="btn btn-dark" id="liveToastBtn">Comprar</button>
+
+                      <div class="toast-container position-fixed bottom-0 end-0 p-3">
+                        <div id="liveToast" class="toast" role="alert" aria-live="assertive" aria-atomic="true">
+                          <div class="toast-header">
+                            <img src="img/robotito.png" class="rounded me-2  w-25 h-25" alt="...">
+                            <strong class="me-auto">Mensaje Automatico</strong>
+                            <small>0 seg ago</small>
+                            <button type="button" class="btn-close" data-bs-dismiss="toast" aria-label="Close"></button>
+                          </div>
+                          <div class="toast-body">
+                            ¿Necesitas ayuda para comprar tus zapatillas? ¡Contáctanos ahora mismo para recibir asistencia personalizada!
+                          </div>
+                        </div>
+                      </div>
+                    
+
+                  </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+
+    </main> 
+
+    
+    <!--Footer-->
+
+    <footer class="bg-dark text-center mt-auto ">
+        <div class="container p-4">
+            <div class="row">
+                <div class="col-lg-4 col-md-6 mb-4 mb-md-0">
+                    <h5 class="text-white">Sobre Nosotros</h5>
+                    <p class="text-white">
+                        Somos una empresa dedicada a la venta de  
+                        zapatillas de alta calidad para todo tipo de 
+                         actividad. Nuestro compromiso es ofrecerte 
+                          lo mejor en calzado deportivo.
+                    </p>
+                </div>
+                <div class="col-lg-4 col-md-6 mb-4 mb-md-0">
+                    <h5 class="text-white">Enlaces Útiles</h5>
+                    <ul class="list-unstyled mb-0">
+                        <li><a href="#" class="text-white">Inicio</a></li>
+                        <li><a href="#" class="text-white">Más opciones</a></li>
+                        <li><a href="#" class="text-white">Contactanos</a></li>
+                        <li><a href="#" class="text-white">Formas de pago</a></li>
+                    </ul>
+                </div>
+                <div class="col-lg-4 col-md-6 mb-4 mb-md-0">
+                    <h5 class="text-white">Contáctanos</h5>
+                    <ul class="list-unstyled mb-0">
+                        <li><a href="" class="text-white">Gmail: move@gmail.com</a></li>
+                        <li><a href="" class="text-white">Numero: +54 11 3274-9360</a></li>
+                        <li><a href="" class="text-white">Dirección: Gral Güemes 897</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    <div class="text-center bg-dark p-3"><p class="text-white">© 2023 MOVE. Todos los derechos reservados.</p></div>
+    </footer>
+    
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    <script src="ej.js"></script>
+    </body>
+</html>
